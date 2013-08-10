@@ -760,6 +760,29 @@ pre code {
   clear: both;
 }
 
+
+.row_test:before,
+.row_test:after {
+  display: table;
+  content: " ";
+}
+
+.row_test:after {
+  clear: both;
+  padding-bottom: 10px
+}
+
+.row_test:before,
+.row_test:after {
+  display: table;
+  content: " ";
+}
+
+.row_test:after {
+  clear: both;
+}
+
+
 @media (min-width: 768px) {
   .row {
     margin-right: -15px;
