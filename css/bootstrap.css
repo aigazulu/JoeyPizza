@@ -769,7 +769,7 @@ pre code {
 
 .row_test:after {
   clear: both;
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .row_test:before,
